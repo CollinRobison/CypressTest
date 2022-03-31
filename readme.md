@@ -11,6 +11,7 @@ npx cypress open
 ```
 
 ## Need to do: 
+- get page objects created and some tags and commands
 - Work on cypress config
 - add custom cypress commands
 - add eslint
