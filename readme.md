@@ -16,3 +16,6 @@ npx cypress open
 - add custom cypress commands
 - add eslint
 - make more custom tests
+
+### possible to-dos
+- get Dashboard up and running
