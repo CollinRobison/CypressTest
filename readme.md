@@ -17,6 +17,7 @@ npx cypress open
 - add custom cypress commands
 - add eslint
 - make more custom tests
+- add chance library
 
 ### possible to-dos
 - get Dashboard up and running
@@ -24,3 +25,4 @@ npx cypress open
 ## Plugins and Packages used in project: 
 - [Cucumber plugin]()
 - [cypress-real-events: Allows for hover and other actions not handled well in native Cypress.](https://github.com/dmtrKovalenko/cypress-real-events)
+- [es-lint]()
