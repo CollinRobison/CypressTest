@@ -1,6 +1,6 @@
 # This is a test Cypress project for learning purposes
 
-I created this project to test various things with cypress and just overall refine my automation skills. - Collin Robison
+I created this project to test various things with Cypress and just overall refine my automation skills. - Collin Robison
 
 ## To run cypress UI:
 `npx cypress open`
