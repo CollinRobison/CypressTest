@@ -15,11 +15,10 @@ I created this project to test various things with cypress and just overall refi
 1. fix any issues found. 
 
 ## Need to do: 
-- Finish hover tests
-- get page objects created and some tags and commands
+- add some tests in mobile view
+- get some tags 
 - Work on cypress config
 - add custom cypress commands
-- add eslint
 - make more custom tests
 - add chance library
 
