@@ -27,6 +27,6 @@ I created this project to test various things with cypress and just overall refi
 - get Dashboard up and running
 
 ## Plugins and Packages used in project: 
-- [Cucumber plugin]()
+- [Cucumber plugin: BDD Testing](https://github.com/TheBrainFamily/cypress-cucumber-preprocessor#visual-Studio-Code)
 - [cypress-real-events: Allows for hover and other actions not handled well in native Cypress.](https://github.com/dmtrKovalenko/cypress-real-events)
 - [es-lint: lints js code](https://eslint.org/)
