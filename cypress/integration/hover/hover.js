@@ -1,52 +1,52 @@
 import {Given, When, Then} from 'cypress-cucumber-preprocessor/steps';
-import hoverTestSite from '../../support/pageObjects/hoverTestSite';
+import HoverTestSite from '../../support/pageObjects/hoverTestSite';
 
 const url = 'http://the-internet.herokuapp.com/hovers';
-const HoverTestSite = new hoverTestSite();
+const hoverTestSite = new HoverTestSite();
 
 Given('I visit the Hover test site', () => {
   cy.visit(url);
 });
 
 Given('I hover the first profile', () => {
-  HoverTestSite.getProfileOne().realHover();
+  hoverTestSite.getProfileOne().realHover();
 });
 
 Given('I hover the second profile', () => {
-  HoverTestSite.getProfileTwo().realHover();
+  hoverTestSite.getProfileTwo().realHover();
 });
 
 Given('I hover the third profile', () => {
-  HoverTestSite.getProfileThree().realHover();
+  hoverTestSite.getProfileThree().realHover();
 });
 
 When('the Profile Name and Profile link is showing with the first User', () => {
-  HoverTestSite.getProfileOne().contains('name: user1').should('be.visible');
-  HoverTestSite.getProfileOne().contains('View profile').should('be.visible');
+  hoverTestSite.getProfileOne().contains('name: user1').should('be.visible');
+  hoverTestSite.getProfileOne().contains('View profile').should('be.visible');
 });
 
 When('the Profile Name and Profile link is showing with the second User', () => {
-  HoverTestSite.getProfileTwo().contains('name: user2').should('be.visible');
-  HoverTestSite.getProfileTwo().contains('View profile').should('be.visible');
+  hoverTestSite.getProfileTwo().contains('name: user2').should('be.visible');
+  hoverTestSite.getProfileTwo().contains('View profile').should('be.visible');
 });
 
 When('the Profile Name and Profile link is showing with the third User', () => {
-  HoverTestSite.getProfileThree().contains('name: user3').should('be.visible');
-  HoverTestSite.getProfileThree().contains('View profile').should('be.visible');
+  hoverTestSite.getProfileThree().contains('name: user3').should('be.visible');
+  hoverTestSite.getProfileThree().contains('View profile').should('be.visible');
 });
 
 Then('user clicks the profile link for the first user', ()=> {
-  HoverTestSite.getProfileOne().contains('View profile').click();
+  hoverTestSite.getProfileOne().contains('View profile').click();
   cy.pause;
 });
 
 Then('user clicks the profile link for the second user', ()=> {
-  HoverTestSite.getProfileTwo().contains('View profile').click();
+  hoverTestSite.getProfileTwo().contains('View profile').click();
   cy.pause;
 });
 
 Then('user clicks the profile link for the third user', ()=> {
-  HoverTestSite.getProfileThree().contains('View profile').click();
+  hoverTestSite.getProfileThree().contains('View profile').click();
   cy.pause;
 });
 

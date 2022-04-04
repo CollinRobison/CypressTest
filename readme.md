@@ -1,14 +1,18 @@
 # This is a test Cypress project for learning purposes
 
+I created this project to test various things with cypress and just overall refine my automation skills. - Collin Robison
+
 ## To run cypress UI:
-```
-npx cypress open
-```
+`npx cypress open`
+
 
 ## To run headless Cypress (console-only):
-```
-npx cypress open
-```
+`npx cypress open`
+
+
+## Before committing a change: 
+1. run `npm run lint:all`
+1. fix any issues found. 
 
 ## Need to do: 
 - Finish hover tests
@@ -25,4 +29,4 @@ npx cypress open
 ## Plugins and Packages used in project: 
 - [Cucumber plugin]()
 - [cypress-real-events: Allows for hover and other actions not handled well in native Cypress.](https://github.com/dmtrKovalenko/cypress-real-events)
-- [es-lint]()
+- [es-lint: lints js code](https://eslint.org/)

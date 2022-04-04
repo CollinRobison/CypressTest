@@ -1,8 +1,7 @@
-class googleHomepage {
-    
-getSearchBar() {
-        return cy.get('[title="Search"]');
-}
+class GoogleHomepage {
+  getSearchBar() {
+    return cy.get('[title="Search"]');
+  }
 }
 
-export default googleHomepage
+export default GoogleHomepage;

@@ -1,15 +1,13 @@
-class hoverTestSite {
-
-getProfileOne() {
+class HoverTestSite {
+  getProfileOne() {
     return cy.get('.figure').eq(0);
-}
-getProfileTwo() {
+  }
+  getProfileTwo() {
     return cy.get('.figure').eq(1);
-}
-getProfileThree() {
+  }
+  getProfileThree() {
     return cy.get('.figure').eq(2);
+  }
 }
 
-}
-
-export default hoverTestSite
+export default HoverTestSite;

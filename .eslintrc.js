@@ -11,5 +11,8 @@ module.exports = {
     'sourceType': 'module',
   },
   'rules': {
+    'require-jsdoc': 0,
+    'new-cap': 0,
+    'max-len': 0,
   },
 };
