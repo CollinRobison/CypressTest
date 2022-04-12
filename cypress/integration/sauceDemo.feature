@@ -1,1 +1,0 @@
-Feature: Testing the demo site saucedemo.com and its functions

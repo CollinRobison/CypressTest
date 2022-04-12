@@ -14,5 +14,6 @@ module.exports = {
     'require-jsdoc': 0,
     'new-cap': 0,
     'max-len': 0,
+    'linebreak-style': 0,
   },
 };

@@ -14,6 +14,8 @@ I created this project to test various things with Cypress and just overall refi
 1. run `npm run lint:all`
 1. fix any issues found. 
 
+**Side note:** cypress.env.json in a normal project should be ignored by git since it generally holds passwords. However in this project any password I use is public knowledge so it is no issue. 
+
 ## Need to do: 
 - add some tests in mobile view
 - get some tags 
