@@ -1,6 +1,10 @@
 # This is a test Cypress project for learning purposes
 
-I created this project to test various things with Cypress and just overall refine my automation skills. - Collin Robison
+I created this project to test various things with Cypress and just overall refine my automation skills.
+
+A lot of these tests will be using the site `http://the-internet.herokuapp.com/` which is a site that has many great examples for testing automation skills. That is why the `baseUrl` happens to be that site.
+
+ - Collin Robison
 
 ## To run cypress UI:
 `npx cypress open`

@@ -1,12 +1,10 @@
 import {Given, When, Then} from 'cypress-cucumber-preprocessor/steps';
 import GoogleHomepage from '../../support/pageObjects/googleHomepage';
 
-const url = 'https://google.com';
 const googleHomepage = new GoogleHomepage();
 
-
 Given('I visit the Google homepage', () => {
-  cy.visit(url);
+  cy.visit(Cypress.env('google_homepage_url'));
 });
 
 When('I type "{}" in the search bar', (SearchValue) => {

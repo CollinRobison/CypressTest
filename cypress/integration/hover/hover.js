@@ -1,7 +1,7 @@
 import {Given, When, Then} from 'cypress-cucumber-preprocessor/steps';
 import HoverTestSite from '../../support/pageObjects/hoverTestSite';
 
-const url = 'http://the-internet.herokuapp.com/hovers';
+const url = '/hovers';
 const hoverTestSite = new HoverTestSite();
 
 Given('I visit the Hover test site', () => {
