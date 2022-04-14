@@ -26,7 +26,6 @@ A lot of these tests will be using the site `http://the-internet.herokuapp.com/`
 - Work on cypress config
 - add custom cypress commands
 - make more custom tests
-- add chance library
 
 ### possible to-dos
 - get Dashboard up and running
@@ -34,4 +33,5 @@ A lot of these tests will be using the site `http://the-internet.herokuapp.com/`
 ## Plugins and Packages used in project: 
 - [Cucumber plugin: BDD Testing](https://github.com/TheBrainFamily/cypress-cucumber-preprocessor#visual-Studio-Code)
 - [cypress-real-events: Allows for hover and other actions not handled well in native Cypress.](https://github.com/dmtrKovalenko/cypress-real-events)
-- [es-lint: lints js code](https://eslint.org/)
+- [es-lint: lints JS code](https://eslint.org/)
+- [ChanceJS: Random value library](https://chancejs.com/)
