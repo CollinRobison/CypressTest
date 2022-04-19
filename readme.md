@@ -2,6 +2,8 @@
 
 I created this project to test various things with Cypress and just overall refine my automation skills.
 
+This project is structured as a BDD automation project and uses Cypress' Cucumber plugin.
+
 A lot of these tests will be using the site `http://the-internet.herokuapp.com/` which is a site that has many great examples for testing automation skills. That is why the `baseUrl` happens to be that site.
 
  - Collin Robison
