@@ -21,12 +21,17 @@ A lot of these tests will be using the site `http://the-internet.herokuapp.com/`
 **Side note:** cypress.env.json in a normal project should be ignored by git since it generally holds passwords. However in this project any password I use is public knowledge so it is no issue. 
 
 ## Need to do: 
-- add some tests in mobile view
+- add some tests in mobile view and different viewports
 - get some tags 
 - Work on cypress config
 - add custom cypress commands
 - make more custom tests
-
+- make some tests that test only apis: get apis from https://rapidapi.com/hub
+- make some tests that manipulate a website by mocking api items
+- For the tests that won't run in non-chromium based browsers use the techniques mentioned here to prevent them from running if user runs with anything else.
+  - https://learn.cypress.io/advanced-cypress-concepts/how-to-test-various-browsers-and-viewports
+- create some tests using these methods
+  - https://learn.cypress.io/advanced-cypress-concepts/important-cypress-methods-you-need-to-know
 ### possible to-dos
 - get Dashboard up and running
 
