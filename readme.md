@@ -36,6 +36,7 @@ A lot of these tests will be using the site `http://the-internet.herokuapp.com/`
   - https://learn.cypress.io/advanced-cypress-concepts/important-cypress-methods-you-need-to-know
 ### possible to-dos
 - get Dashboard up and running
+- Add some accessibility tests
 
 ## Plugins and Packages used in project: 
 - [Cucumber plugin: BDD Testing](https://github.com/TheBrainFamily/cypress-cucumber-preprocessor#visual-Studio-Code)
